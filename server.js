@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var artices = {
-  'article-one' = {
+  'article-one' : {
   title : 'Article One | Vikas Shaw',
   heading : 'A Day Without Colour',
   date : '15 Feb 2018',
@@ -31,7 +31,7 @@ var artices = {
         something indistinct and Robin leaves with a note,”okay sir.”</p>`
         },
 
-    'article-two' = {
+    'article-two' : {
     title : 'Article Two | Vikas Shaw',
     heading : 'A Day Without Colour',
     date : '16 Feb 2018',
@@ -49,7 +49,7 @@ var artices = {
           the bombshell away from the top of your head.</p>`
         },
       
-     'article-three' = {
+     'article-three' : {
     title : 'Article Three | Vikas Shaw',
     heading : 'A Day Without Colour',
     date : '17 Feb 2018',
