@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/ui/style.css', function (req, res) {
-    res.send(path.join(__dirname, 'ui', 'style.css'));
+    res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
 app.get('/article-one', function (req, res) {
@@ -22,7 +22,7 @@ app.get('/article-two', function (req, res) {
 });
 
 app.get('/article-three', function (req, res) {
-  res.sendFile(path.join('hii this is third web page'));
+  res.send(path.join('hii this is third web page'));
 });
 
 app.get('/ui/madi.png', function (req, res) {
