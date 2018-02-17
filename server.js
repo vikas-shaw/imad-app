@@ -7,10 +7,10 @@ app.use(morgan('combined'));
 
 var articeOne = {
   
-  var title : 'Article One | Vikas Shaw'
-  var heading : 'A Day Without Colour'
-  var date : '15 Feb 2018'
-  var content : `
+  title : 'Article One | Vikas Shaw',
+  heading : 'A Day Without Colour',
+  date : '15 Feb 2018',
+  content : `
         <p>Imagine yourself, getting up one morning  in a world with ‘no color’. You step down your king sized bed, which used to 
          be velvet black with a wooden frame made of the finest wood in all of Europe. You look around to find your room as dull as 
          one could think of. The blue silk-curtains, the brown classy timberwood floor tiles, the red and black diaries placed on the
@@ -31,7 +31,7 @@ var articeOne = {
         something indistinct and Robin leaves with a note,”okay sir.”</p>
    `
   
-}
+};
 
 function createTemplate(data) {
   
