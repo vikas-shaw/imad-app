@@ -5,8 +5,8 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articeOne = {
-  
+var artices = {
+  articleOne = {
   title : 'Article One | Vikas Shaw',
   heading : 'A Day Without Colour',
   date : '15 Feb 2018',
@@ -28,8 +28,50 @@ var articeOne = {
         ” “Please have a seat mam”, you hear them talking. You pull your steps ahead, slowly down the steps. A pounding heart and 
         a mind bustling with the chaos. Robin comes running up and says,”She’s waiting downstairs sir. What shall I make for 
         breakfast?.” Indifferent to his words you are busy searching your home for the slightest tinge of colour left. You mutter
-        something indistinct and Robin leaves with a note,”okay sir.”</p>
-   `
+        something indistinct and Robin leaves with a note,”okay sir.”</p>`
+        },
+
+    articleTwo = {
+    title : 'Article Two | Vikas Shaw',
+    heading : 'A Day Without Colour',
+    date : '16 Feb 2018',
+    content : `
+        <p>“Hello aunty , such a long time. Where have you been since I shifted to this place. No letters or phone calls.” 
+          You start the the conversation very well , camouflaging the crisis you are going through.</p>
+
+        <p>“I was busy settling some legal dispute over land, didn’t even get a chance to wish you a happy birthday, my child.
+          But no worries, I have got this pullover for you, the finest fabric just the way you like it”, your aunt says.
+          “Oh thank you so much aunty”, taking the pullover in your hands.</p>
+
+        <p>“Hope you like the colour, tell me how is it? I had literally quarrelled over with your uncle over the colour. 
+          He just doesn’t have a taste,” this was like a bombshell flying in sky and you never know where it would drop.
+          “Ah! The colour is absolutely fine. Must say you have a nice sense of trend” you reply managing to somehow swing 
+          the bombshell away from the top of your head.</p>`
+        },
+      
+     articleThree = {
+    title : 'Article Three | Vikas Shaw',
+    heading : 'A Day Without Colour',
+    date : '17 Feb 2018',
+    content : `
+        <p>“Thank you, son.” Aunt Lysa said. She gets up to leave on account of some other meetings. You walk behind her as
+          she narrates you some business presentation, your eyes run all over your  lawn turned pale, the polished garden 
+          tea table has lost its lustre, the sky has turned sad and the trees seem so quiet and blunt. You accompany her 
+          to the car that once used to be your uncle’s masterpiece. She leaves and you turn back to your house, find yourself
+          blind to the most vibrant part of human life – colours.</p>
+
+        <p>On your way back you plan to set aside this world and sit back on your tea table, alone and undisturbed. You 
+          approach the garden, sit and decide to shut your eyes to this strange humdrum period and wait for it to pass. 
+          But the day seems long and your eyes sleepless. A leaf falls upon you and you hold it up to have a look. A 
+          beautiful Autumn Maple, perhaps the prettiest one will ever find. You look above to find more of them but the 
+          monochrome disgusts you. You throw it down and then suddenly your eyes go dizzy and you wake up the next day in 
+          you bedroom.</p>
+
+        <p>A smile rolls over your face when you see Robin next to you along with a doctor that is busy studying your reports
+          and most importantly all in colours as bright as sunshine itself!!! you could notice every shade on Robin’s
+          wrinkled face and the slightest hue in the entire room. Every corner, every bit was glistening like anything and 
+          your red white polka dotted coffee mug just at your side, everything just as ever before.</p>`
+        }
   
 };
 
