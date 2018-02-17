@@ -10,7 +10,19 @@ app.get('/', function (req, res) {
 });
 
 app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+    res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+});
+
+app.get('/artice-one', function (req, res) {
+  res.sendFile(path.join("hii this is first web page"));
+});
+
+app.get('/artice-two', function (req, res) {
+  res.sendFile(path.join("hii this is second web page"));
+});
+
+app.get('/article-three', function (req, res) {
+  res.sendFile(path.join("hii this is third web page"));
 });
 
 app.get('/ui/madi.png', function (req, res) {
