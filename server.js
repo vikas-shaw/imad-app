@@ -11,7 +11,7 @@ var articles = {
   heading : 'A Day Without Colour',
   date : '15 Feb 2018',
   content : `
-        <p>Imagine yourself, getting up one morning  in a world with ‘no color’.</p>`
+        <p>this is the first article</p>`
         },
     'article-two' : {
     title : 'Article Two | Vikas Shaw',
@@ -19,7 +19,7 @@ var articles = {
     date : '16 Feb 2018',
     content : `
 
-        <p>You pull open your bathoom and Robin,your butler, comes running to you with a toothbrush and a towel.</p>`
+        <p>this is second article</p>`
         },
     'article-three' : {
     title : 'Article Three | Vikas Shaw',
@@ -27,8 +27,7 @@ var articles = {
     date : '17 Feb 2018',
     content : `
         
-        <p>It is this time when you hear a doorbell. Robin calls out to you in the gallery,”Sir, your aunt Lysa is here to 
-           meet you.</p>`
+        <p>this is third article</p>`
         }
   };
 
