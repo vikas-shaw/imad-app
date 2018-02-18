@@ -89,7 +89,7 @@ app.get('/ui/style.css', function (req, res) {
 });*/
 
 app.get('/article-one', function (req, res) {
-    res.send(createTemplate(articles[article-one]));
+    res.send(createTemplate(article-one));
 });
 
 app.get('/ui/main.js', function (req, res) {
