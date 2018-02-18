@@ -31,7 +31,7 @@ var artices = {
         }
   };
 
-function createTemplate(data) {
+function createTemplate (data) {
   
   var title = data.title;
   var heading = data.heading;
@@ -40,7 +40,7 @@ function createTemplate(data) {
   
   var htmlTemplate = `
 
-    <html>
+    <html>  
       <head>
          <title>
           ${title}
@@ -50,8 +50,7 @@ function createTemplate(data) {
       </head>
       <body>
           <div class="container">
-            <div>
-            </div>
+            
               <div>
                   <a href="/">Home</a>
               </div>
