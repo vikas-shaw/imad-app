@@ -11,7 +11,11 @@ var articles = {
   heading : 'A Day Without Colour',
   date : '15 Feb 2018',
   content : `
-        <p>hello there this is the first page</p>`
+        <p>Imagine yourself, getting up one morning  in a world with ‘no color’. You step down your king sized bed, 
+           which used to be velvet black with a wooden frame made of the finest wood in all of Europe. You look around 
+           to find your room as dull as one could think of. The blue silk-curtains, the brown classy timberwood floor 
+           tiles, the red and black diaries placed on the study, the glossy table lamp, your favorite polka dotted coffee
+           mug….. all gone. Just a long nap last night and you wake up in a strange galaxy that lacks colours!!</p>`
         },
     'article-two' : {
     title : 'Article Two | Vikas Shaw',
@@ -19,7 +23,12 @@ var articles = {
     date : '16 Feb 2018',
     content : `
 
-        <p>this is the second page</p>`
+        <p>You pull open your bathoom and Robin,your butler, comes running to you with a toothbrush and a towel. When you 
+           realize that Robin, a man of tall stature and fair complexion looks at you with the palest expression you have 
+           ever seen. You walk past Robin or Robin like figure or whosoever he was and reach the basin. You rinse your face,
+           rub your eyes but you just can’t wipe off the fact that it is all happening for real. Suddenly you watch yourself
+           in the mirror. Is that you? Of course not. But then how is it that your lips, your nose,your eyes are 
+           indifferentiable. Seems like a nightmare and you wait for it to pass away.</p>`
         },
     'article-three' : {
     title : 'Article Three | Vikas Shaw',
@@ -27,7 +36,11 @@ var articles = {
     date : '17 Feb 2018',
     content : `
         
-        <p>this is the third page</p>`
+        <p>It is this time when you hear a doorbell. Robin calls out to you in the gallery,”Sir, your aunt Lysa is here to 
+           meet you.” “Please have a seat mam”, you hear them talking. You pull your steps ahead, slowly down the steps. 
+           A pounding heart and a mind bustling with the chaos. Robin comes running up and says,”She’s waiting downstairs
+           sir. What shall I make for breakfast?.” Indifferent to his words you are busy searching your home for the 
+           slightest tinge of colour left. You mutter something indistinct and Robin leaves with a note,”okay sir.”</p>`
         }
   };
 
