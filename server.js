@@ -90,6 +90,10 @@ app.get('/counter', function (req, res) {
    res.send('hii there '); 
 });
 
+app.get('/hello', function (req, res) {
+    res.send(path.join('hii there');
+});
+
 app.get('/ui/style.css', function (req, res) {
     res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
