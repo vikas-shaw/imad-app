@@ -91,7 +91,7 @@ app.get('/counter', function (req, res) {
 });
 
 app.get('/hello', function (req, res) {
-    res.send(path.join('hii there');
+    res.send(path.join('hii there'));
 });
 
 app.get('/ui/style.css', function (req, res) {
